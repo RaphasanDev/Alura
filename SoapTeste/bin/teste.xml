@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <request>
+      <body />
+      <header>
+         <token>12345</token>
+      </header>
+      <parameters />
+      <query_string>
+         <nome>marcel</nome>
+      </query_string>
+   </request>
+   <response>
+      <body>
+         <cenarios>Teste XPTO</cenarios>
+         <nome>{{query_string_nome}}</nome>
+         <token>{{header_token}}</token>
+      </body>
+      <header>
+         <token>{{header_token}}</token>
+      </header>
+      <status>200</status>
+   </response>
+</root>

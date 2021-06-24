@@ -1,0 +1,25 @@
+{
+	"request" : {
+		"header" : {
+				"token" : "12345"
+			},
+			"query_string" : {
+				"nome" : "zanatto"
+			},
+			"parameters" : {
+			},
+			"body" : {
+				}
+	},
+	"response" : {
+		"status" : 200,
+		"header" : {
+			"token" : "{{header_token}}"
+		},
+		"body" : {
+			"cenarios" : "Passagem de parâmetro - GET_",
+			"token":"{{header_token}}",
+			"nome" : "{{query_string_nome}}"
+		}
+	}
+}
