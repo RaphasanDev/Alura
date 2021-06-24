@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\Raphael San\Documents\EstudoJava\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1532149616.index
+\gerenciador\src
+C:\Users\Raphael San\Documents\Java arquivos\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1532149616.index
+\gerenciador\src
+C:\Users\Raphael San\Documents\EstudoJava\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1421983826.index
+\gerenciador\src
