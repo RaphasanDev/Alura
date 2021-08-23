@@ -4,7 +4,7 @@ public class TesteWrapperInteger {
 	public static void main(String[] args) {
 		//código curso
 		
-		int idade = 29;
+		//int idade = 29;
 		Integer idadeRef = Integer.valueOf(29);//Autoboxing
 		System.out.println(idadeRef.doubleValue());
 		

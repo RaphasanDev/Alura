@@ -77,5 +77,5 @@ public class TesteClassesAnonimas {
 			System.out.println(conta + ", " + conta.getTitular().getNome());
 
 		}
-	}
+System.out.println(comp);	}
 }

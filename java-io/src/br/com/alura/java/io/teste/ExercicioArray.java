@@ -2,7 +2,6 @@ package br.com.alura.java.io.teste;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ExercicioArray {
 	public static void main(String[] args) {
@@ -28,7 +27,6 @@ public class ExercicioArray {
 
 		while (!lista.isEmpty()) {
 
-			int elemento = lista.remove(0);
 
 			System.out.println(lista);
 
@@ -66,7 +64,6 @@ public class ExercicioArray {
 
 		while (!pilha.isEmpty()) {
 
-			int elemento = pilha.pop();
 
 			System.out.println(pilha);
 
@@ -110,7 +107,6 @@ public class ExercicioArray {
 
 		while (!lista.isEmpty()) {
 
-			int elemento = lista.remove(0);
 
 			System.out.println(lista);
 

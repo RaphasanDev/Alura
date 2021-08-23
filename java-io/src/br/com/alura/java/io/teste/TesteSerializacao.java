@@ -1,10 +1,7 @@
 package br.com.alura.java.io.teste;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
 public class TesteSerializacao {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
@@ -18,7 +15,7 @@ public class TesteSerializacao {
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream("objeto.bin"));
 		String nome = (String) ois.readObject();												//transformar um fluxo binário em objeto é chamado desserialização
 		System.out.println(nome);
-		
+		ois.close();
 	}
 	
 }

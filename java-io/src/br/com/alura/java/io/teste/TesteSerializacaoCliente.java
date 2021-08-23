@@ -1,9 +1,7 @@
 package br.com.alura.java.io.teste;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 
 public class TesteSerializacaoCliente {
 
@@ -25,9 +23,9 @@ public class TesteSerializacaoCliente {
 		
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream("cliente1.bin"));			//criando o objeto que trará o arquivo
 		Cliente cliente = (Cliente) ois.readObject();												//desserializando o arquivo para leitura dos dados.
-		Cliente cliente1 = (Cliente) ois.readObject();	
+		//Cliente cliente1 = (Cliente) ois.readObject();	
 		System.out.println(cliente.getNome() + cliente.getCpf() + cliente.getProfissao());
-		
+		ois.close();
 	}
 	
 }
